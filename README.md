@@ -1,4 +1,4 @@
-<img width="1440" alt="Screenshot 2025-04-21 at 10 11 15 AM" src="https://github.com/user-attachments/assets/68497873-61c8-4998-8cca-f7268ddeb74c" />Mahij Gosai
+Mahij Gosai
 
 # PDF Summarizer
 
