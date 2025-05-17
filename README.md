@@ -1,81 +1,136 @@
-Mahij Gosai
+# PDF Summarizer 📄✨
 
-# PDF Summarizer
+![PDF Summarizer](https://img.shields.io/badge/PDF_Summarizer-Java_Spring_Boot-blue.svg)
 
-A Java-based web application for summarizing content from PDF documents using Spring Boot.
+PDF Summarizer is a Java Spring Boot web application that enables users to upload PDF files and receive concise text summaries. It employs Apache PDFBox to extract text and a custom frequency-based algorithm to identify and display the most relevant sentences.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [How It Works](#how-it-works)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
 ## Features
 
-- Upload a PDF file
-- Automatically extract and summarize the content
-- View the summarized text via a clean web interface
+- **User-Friendly Interface**: Simple and intuitive design for easy navigation.
+- **PDF Upload**: Easily upload PDF files for summarization.
+- **Text Extraction**: Utilizes Apache PDFBox for accurate text extraction.
+- **Summarization Algorithm**: Implements a custom frequency-based algorithm for summarizing text.
+- **Download Summaries**: Download the summarized text for further use.
+- **Web-Based**: Accessible from any device with a web browser.
 
 ## Technologies Used
 
-- Java 11+
-- Spring Boot
-- Maven
-- Thymeleaf (for HTML templates)
+- **Java**: The core programming language for backend development.
+- **Spring Boot**: Framework used to create the web application.
+- **Apache PDFBox**: Library for PDF content extraction.
+- **HTML/CSS/JavaScript**: Technologies used for the frontend.
+- **Thymeleaf**: Template engine for rendering web pages.
 
-## Project Structure
+## Installation
 
-```
-pdf-summarizer/
-├── src/
-│   ├── main/
-│   │   ├── java/com/
-│   │   │   ├── controller/         # Handles web requests
-│   │   │   ├── model/              # PDF request data model
-│   │   │   ├── service/            # Summarization logic
-│   │   │   └── pdfsummarizer/      # Spring Boot application entry
-│   │   └── resources/
-│   │       ├── templates/          # HTML templates (index, result)
-│   │       └── application.properties
-├── pom.xml                         # Maven configuration
-```
+To get started with PDF Summarizer, follow these steps:
 
-## How to Run
-
-1. **Clone the repository**
-
+1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/kyawhtetoo134/pdf-summarizer.git
+   ```
+
+2. **Navigate to the Project Directory**:
+   ```bash
    cd pdf-summarizer
    ```
 
-2. **Build the project**
-
+3. **Build the Project**:
+   Use Maven to build the project.
    ```bash
    mvn clean install
    ```
 
-3. **Run the application**
-
+4. **Run the Application**:
+   Start the application using the following command:
    ```bash
    mvn spring-boot:run
    ```
 
-4. **Access the web interface**
+5. **Access the Application**:
+   Open your web browser and go to `http://localhost:8080`.
 
-   Open your browser and navigate to `http://localhost:8080`
+## Usage
 
-## Notes
+1. **Upload a PDF**: Click on the upload button to select a PDF file from your device.
+2. **Generate Summary**: After the file is uploaded, click on the summarize button.
+3. **View Summary**: The application will display the summarized text.
+4. **Download Summary**: Click the download button to save the summary as a text file.
 
-- Ensure you have Java and Maven installed on your system.
-- PDF processing and summarization logic is handled in `PdfService.java`.
+## How It Works
+
+The PDF Summarizer uses a two-step process to generate summaries:
+
+1. **Text Extraction**: The application utilizes Apache PDFBox to extract text from the uploaded PDF file. This ensures that the text is accurately retrieved for summarization.
+
+2. **Summarization**: A custom frequency-based algorithm analyzes the extracted text. It identifies the most relevant sentences based on their frequency and context within the document. The algorithm ranks sentences and presents the top results as a summary.
+
+### Flow Diagram
+
+![Flow Diagram](https://example.com/flow-diagram.png)
+
+## Contributing
+
+We welcome contributions from the community! If you would like to contribute, please follow these steps:
+
+1. **Fork the Repository**: Click the fork button on the top right of the repository page.
+2. **Create a Branch**: Create a new branch for your feature or bug fix.
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Changes**: Implement your changes and commit them.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. **Push Changes**: Push your changes to your forked repository.
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. **Create a Pull Request**: Go to the original repository and create a pull request.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Screenshot of Project Demonstration
-<img width="1440" alt="Screenshot 2025-04-21 at 10 11 15 AM" src="https://github.com/user-attachments/assets/52aaa491-08c5-4350-ad02-1a0c8f5837f1" />
+## Contact
 
-<img width="1440" alt="Screenshot 2025-04-21 at 10 11 06 AM" src="https://github.com/user-attachments/assets/97629be5-2841-442c-bb00-9e59d4660032" />
+For any inquiries, please contact:
 
+- **Kyaw Htet Oo**: [kyawhtetoo134@gmail.com](mailto:kyawhtetoo134@gmail.com)
 
+## Releases
 
+To download the latest version of the PDF Summarizer, visit the [Releases](https://github.com/kyawhtetoo134/pdf-summarizer/releases) section. You can find the latest builds and execute them as needed.
 
+For more details, you can also check the [Releases](https://github.com/kyawhtetoo134/pdf-summarizer/releases) section.
 
+## Topics
 
+This repository covers various topics related to automated text summarization, including:
 
+- Automated Text Summarization System
+- Document Summarizer Using Spring Boot
+- Extractive Summarization of PDF Documents
+- Java-Based PDF Summary Generator
+- Natural Language Processing for PDF Summarization
+- PDF Content Extraction and Summarization
+- PDF File Summarizer
+- Sentence Scoring Based Summarizer
+- Text Summarization from PDF Files
+- Web-Based PDF Summarizer Using Java
+
+---
+
+Thank you for checking out PDF Summarizer! We hope you find it useful for your document summarization needs.
